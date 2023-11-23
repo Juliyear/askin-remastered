@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Juliano Paulo">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <title>♡♡♡♡♡</title>
+    </head>
+    <body>
+        <h2>OLÁ, MINHA QUERIDA MAYARA!</h2>
+        <img class="emoticon" src="img/emoticon2.png" alt="">
+        <H2>PODERIA <span class="red">POR FAVOR</span> RESPONDER ÀS QUESTÕES ABAIXO?</H2>
+        <h2>SÓ TE PEÇO QUE SEJA BEM <span class="red">SINCERA</span> NAS RESPOSTAS, BELEZA?</h2>
+
+        <form id="questionForm">
+            <!-- Pergunta 1 -->
+            <div class="question" id="q1">
+              <label for="q1">Você ficou <span class="red">nervosa</span> ou <span class="red">ansiosa</span> quando esteve com Juliano Paulo?</label><br>
+              <input type="radio" id="q1Sim" name="q1" value="sim">
+              <label for="q1Sim">Sim</label>
+              <input type="radio" id="q1Nao" name="q1" value="nao">
+              <label for="q1Nao">Não</label>
+            </div>
+        
+            <!-- Adicione mais perguntas conforme necessário -->
+            <!-- Pergunta 2 -->
+            <div class="question" id="q2" style="display: none;">
+              <label for="q2">Você costuma <span class="red">pensar</span> nele durante seu dia, mesmo sem falar com ele?</label><br>
+              <input type="radio" id="q2Sim" name="q2" value="sim">
+              <label for="q2Sim">Sim</label>
+              <input type="radio" id="q2Nao" name="q2" value="nao">
+              <label for="q2Nao">Não</label>
+            </div>
+        
+            <!-- Pergunta 3 -->
+            <div class="question" id="q3" style="display: none;">
+              <label for="q3">Existe algum interesse <span class="red">romântico</span> da sua parte em relação a ele?</label><br>
+              <input type="radio" id="q3Sim" name="q3" value="sim">
+              <label for="q3Sim">Sim</label>
+              <input type="radio" id="q3Nao" name="q3" value="nao">
+              <label for="q3Nao">Não</label>
+            </div>
+
+            <!-- Pergunta 4 -->
+            <div class="question" id="q4" style="display: none;">
+                <label for="q4">Você já sentiu <span class="red">ciúmes</span> dele?</label><br>
+                <input type="radio" id="q4Sim" name="q4" value="sim">
+                <label for="q4Sim">Sim</label>
+                <input type="radio" id="q4Nao" name="q4" value="nao">
+                <label for="q4Nao">Não</label>
+              </div>
+
+              <!-- Pergunta 5 -->
+            <div class="question" id="q5" style="display: none;">
+                <label for="q5">Gostaria de passar <span class="red">mais</span> tempo junto com ele?</label><br>
+                <input type="radio" id="q5Sim" name="q5" value="sim">
+                <label for="q5Sim">Sim</label>
+                <input type="radio" id="q5Nao" name="q5" value="nao">
+                <label for="q5Nao">Não</label>
+              </div>
+
+              <!-- Pergunta 6 -->
+            <div class="question" id="q6" style="display: none;">
+                <label for="q6">Você consideraria a <span class="red">possibilidade</span> de ter um relacionamento mais <span class="red">sério</span> com esse cara?</label><br>
+                <input type="radio" id="q6Sim" name="q6" value="sim">
+                <label for="q6Sim">Sim</label>
+                <input type="radio" id="q6Nao" name="q6" value="nao">
+                <label for="q6Nao">Não</label>
+              </div>
+        
+            <!-- ... Continue adicionando perguntas -->
+        
+            <!-- Botão para processar respostas -->
+            <button type="button" id="submitButton" style="display: none;" onclick="processAnswers()">Enviar respostas</button>
+          </form>
+
+        <!-- SCRIPT -->
+        <script src="js/script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Juliano Paulo">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>♥♥♡♡♡</title>
+  <!-- Adicione aqui quaisquer outros meta tags, links para folhas de estilo, ou scripts que você precisar -->
+</head>
+<body>
+  <!-- Conteúdo do seu site começa aqui -->
+
+  <h1>JÁ QUE VOCÊ DIZ GOSTAR DE MIM, <span class="red">RESPONDA</span> AO CHECKLIST A SEGUIR:</h1>
+  <img class="emoticon" src="img/emoticon20.png" alt="">
+
+  <form id="checklistForm">
+    <input type="checkbox" id="checkbox1">
+    <label for="checkbox1">SINTO UMA <span class="red">CONEXÃO EMOCIONAL</span> ENTRE EU E JULIANO PAULO</label><br>
+
+    <input type="checkbox" id="checkbox2">
+    <label for="checkbox2">SOU O MAIOR FÃ DE EMINEM QUE VOCÊ VAI CONHECER NA VIDA!</label><br>
+
+    <input type="checkbox" id="checkbox3">
+    <label for="checkbox3">SOU MUITO CALMO E RARAMENTE FICO BRAVO</label><br>
+
+    <input type="checkbox" id="checkbox4">
+    <label for="checkbox4">REI DO PEBOLIM EM CARAGUATATUBA, O MAIOR DE TODOS OS TEMPOS</label><br>
+
+    <input type="checkbox" id="checkbox5">
+    <label for="checkbox5">SOU O MAIOR NERD DO MUNDO</label><br>
+
+    <!-- Adicione as outras opções aqui -->
+
+    <button type="button" onclick="checkChecklist()">Verificar Checklist</button>
+  </form>
+
+  <!-- Conteúdo do seu site termina aqui -->
+
+  <script>
+    function checkChecklist() {
+      // Obter referências para os checkboxes
+      const checkbox1 = document.getElementById('checkbox1');
+      const checkbox2 = document.getElementById('checkbox2');
+      const checkbox3 = document.getElementById('checkbox3');
+      const checkbox4 = document.getElementById('checkbox4');
+      const checkbox5 = document.getElementById('checkbox5');
+
+      // Verificar se os checkboxes específicos foram selecionados
+      if (checkbox1.checked && checkbox2.checked && checkbox3.checked && checkbox4.checked && checkbox5.checked) {
+        alert('Parabéns! Você respondeu ao checklist corretamente!');
+      } else {
+        alert('Você precisa responder corretamente a todas as opções do checklist.');
+      }
+    }
+  </script>
+</body>
+</html>
